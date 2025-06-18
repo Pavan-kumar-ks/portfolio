@@ -1427,7 +1427,7 @@ function downloadResume() {
     
     // Create download link
     const link = document.createElement('a');
-    link.href = ' http://127.0.0.1:5500/resume/Pavan_Kumar_KS_Resume.pdf'; // Your resume file path
+    link.href = './resume/Pavan_Kumar_KS_Resume.pdf'; // Your resume file path
     link.download = 'Pavan_Kumar_KS_Resume.pdf';
     link.style.display = 'none';
     
@@ -1456,7 +1456,7 @@ function downloadResume() {
 
 function viewResume() {
     // Open resume in new tab
-    window.open('http://127.0.0.1:5500/resume/Pavan_Kumar_KS_Resume.pdf', '_blank');
+    window.open('./resume/Pavan_Kumar_KS_Resume.pdf', '_blank');
     
     // Track view analytics (optional)
     if (typeof gtag !== 'undefined') {
